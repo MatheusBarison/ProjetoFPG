@@ -142,9 +142,9 @@ void display(void)
    	glClear (GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //limpa cada posição anterior
    	glClearColor (0.0,0.0,0.0,1.0);
    	drawText("Gravity Simulator",-0.125,0.85,1,1,1,false);
-   	drawText("Distance:" + std::to_string(dist) + " milions",0.5,-0.6,1,1,1,false);
+   	drawText("Distance:" + std::to_string(dist) + " E6 km",0.5,-0.6,1,1,1,false);
     float forca = calculaForca(dist);
-   	drawText("Force:" + std::to_string(forca) + " E22",0.5,-0.7,1,1,1,false);
+   	drawText("Force:" + std::to_string(forca) + " E22 N",0.5,-0.7,1,1,1,false);
    	drawText("A: Aumentar raio da orbita (Terra)",-0.8,-0.3,1,1,1,false);
    	drawText("S: Diminuir raio da orbita (Terra)",-0.8,-0.4,1,1,1,false);
    	drawText("D: Aumentar raio da orbita (Lua)",-0.8,-0.5,1,1,1,false);
