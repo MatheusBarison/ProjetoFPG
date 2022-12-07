@@ -217,7 +217,7 @@ void keyboard (unsigned char key, int x, int y)
       case 'd':
       case 'D':
       	  gravityChange(2);
-      	  break;                            //tratar excessões -> velocity negativa, terra entrando no sol...
+      	  break;                            
       case 'f':
       case 'F':
       	  gravityChange(3);
